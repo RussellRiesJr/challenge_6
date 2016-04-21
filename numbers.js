@@ -17,6 +17,8 @@ function add(a, b) {
   return a + b;
 }
 
-var answer = squareSum - naturalSum;
+var naturalSquare = naturalSum * naturalSum;
+
+var answer = naturalSquare - squareSum;
 
 console.log("Answer: ", answer);
